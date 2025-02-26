@@ -25,7 +25,17 @@ console.log(splicedTeacher);
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = null;
+
+const isFabioPresent = teachers.includes('Fabio');
+console.log(isFabioPresent);
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+const combinedArray = array1.concat('Nathan',
+  'Ed',
+  'Fabio',
+  'Phil',
+  'Carlo',
+  'Lewis',
+  'Luca')
+const teachersString = combinedArray.join(',');
+console.log(teachersString);
