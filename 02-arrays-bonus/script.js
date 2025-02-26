@@ -30,7 +30,7 @@ const isFabioPresent = teachers.includes('Fabio');
 console.log(isFabioPresent);
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const combinedArray = Nathan.concat('Nathan',
+const combinedArray = teachers.concat('Nathan',
   'Ed',
   'Fabio',
   'Phil',
