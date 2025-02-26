@@ -47,4 +47,6 @@ const lewisIndex = LewisIndex;
 // e salva il risultato nella variabile isTeachersEmpty
 const isTeachersEmpty = teachers === 0;
 console.log(isTeachersEmpty);
-const isTeachersEmpty = isTeachersEmpty;
+teachers.length === 0; // non mi torna perchè qui ci vuole uguale a 0 mentre nell'eserczio sopra no
+console.log(isTeachersEmpty);
+//const isTeachersEmpty = isTeachersEmpty;
